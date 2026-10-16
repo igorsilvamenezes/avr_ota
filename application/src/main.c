@@ -6,6 +6,7 @@
  * end to end. Real behaviour starts in Step 1.
  */
 #include <avr/io.h>
+#include "memory_map.h" /* compiled here so its sanity chechs run */
 
 int main(void)
 {
